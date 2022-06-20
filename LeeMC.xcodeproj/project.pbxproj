@@ -13,9 +13,14 @@
 		2280C2D428606B960092CE23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2280C2D228606B960092CE23 /* Main.storyboard */; };
 		2280C2D628606B980092CE23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2280C2D528606B980092CE23 /* Assets.xcassets */; };
 		2280C2D928606B980092CE23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2280C2D728606B980092CE23 /* LaunchScreen.storyboard */; };
+		2280C2E128606C540092CE23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2280C2E028606C540092CE23 /* GoogleService-Info.plist */; };
+		2280C2E3286071470092CE23 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280C2E2286071470092CE23 /* JoinViewController.swift */; };
+		2280C2E52860865F0092CE23 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280C2E42860865F0092CE23 /* UIView+Extension.swift */; };
+		F7CD662AFAC33B85B9A9118F /* Pods_LeeMC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D52419A09613AB8677F136F /* Pods_LeeMC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D52419A09613AB8677F136F /* Pods_LeeMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeeMC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2280C2C928606B960092CE23 /* LeeMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2280C2CC28606B960092CE23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2280C2CE28606B960092CE23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		2280C2D528606B980092CE23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2280C2D828606B980092CE23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2280C2DA28606B980092CE23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2280C2E028606C540092CE23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2280C2E2286071470092CE23 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		2280C2E42860865F0092CE23 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		4C3B18483D594393DAA2272D /* Pods-LeeMC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeMC.release.xcconfig"; path = "Target Support Files/Pods-LeeMC/Pods-LeeMC.release.xcconfig"; sourceTree = "<group>"; };
+		93A92AB1DE5A9D07FC9422CE /* Pods-LeeMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeMC.debug.xcconfig"; path = "Target Support Files/Pods-LeeMC/Pods-LeeMC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CD662AFAC33B85B9A9118F /* Pods_LeeMC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				2280C2CB28606B960092CE23 /* LeeMC */,
 				2280C2CA28606B960092CE23 /* Products */,
+				612E5393023FE3F248827379 /* Pods */,
+				E882749651CDED48042CC13C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,35 @@
 		2280C2CB28606B960092CE23 /* LeeMC */ = {
 			isa = PBXGroup;
 			children = (
+				2280C2E42860865F0092CE23 /* UIView+Extension.swift */,
 				2280C2CC28606B960092CE23 /* AppDelegate.swift */,
 				2280C2CE28606B960092CE23 /* SceneDelegate.swift */,
 				2280C2D028606B960092CE23 /* ViewController.swift */,
 				2280C2D228606B960092CE23 /* Main.storyboard */,
 				2280C2D528606B980092CE23 /* Assets.xcassets */,
+				2280C2E028606C540092CE23 /* GoogleService-Info.plist */,
 				2280C2D728606B980092CE23 /* LaunchScreen.storyboard */,
 				2280C2DA28606B980092CE23 /* Info.plist */,
+				2280C2E2286071470092CE23 /* JoinViewController.swift */,
 			);
 			path = LeeMC;
+			sourceTree = "<group>";
+		};
+		612E5393023FE3F248827379 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93A92AB1DE5A9D07FC9422CE /* Pods-LeeMC.debug.xcconfig */,
+				4C3B18483D594393DAA2272D /* Pods-LeeMC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E882749651CDED48042CC13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D52419A09613AB8677F136F /* Pods_LeeMC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2280C2DD28606B980092CE23 /* Build configuration list for PBXNativeTarget "LeeMC" */;
 			buildPhases = (
+				6D3D4195FAF84DB9741E780F /* [CP] Check Pods Manifest.lock */,
 				2280C2C528606B960092CE23 /* Sources */,
 				2280C2C628606B960092CE23 /* Frameworks */,
 				2280C2C728606B960092CE23 /* Resources */,
+				7988475E49AFFC5E940C7697 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +161,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				2280C2D928606B980092CE23 /* LaunchScreen.storyboard in Resources */,
+				2280C2E128606C540092CE23 /* GoogleService-Info.plist in Resources */,
 				2280C2D628606B980092CE23 /* Assets.xcassets in Resources */,
 				2280C2D428606B960092CE23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D3D4195FAF84DB9741E780F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeeMC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7988475E49AFFC5E940C7697 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeeMC/Pods-LeeMC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeeMC/Pods-LeeMC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeeMC/Pods-LeeMC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2280C2C528606B960092CE23 /* Sources */ = {
@@ -140,6 +218,8 @@
 			files = (
 				2280C2D128606B960092CE23 /* ViewController.swift in Sources */,
 				2280C2CD28606B960092CE23 /* AppDelegate.swift in Sources */,
+				2280C2E3286071470092CE23 /* JoinViewController.swift in Sources */,
+				2280C2E52860865F0092CE23 /* UIView+Extension.swift in Sources */,
 				2280C2CF28606B960092CE23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +362,7 @@
 		};
 		2280C2DE28606B980092CE23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A92AB1DE5A9D07FC9422CE /* Pods-LeeMC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +391,7 @@
 		};
 		2280C2DF28606B980092CE23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3B18483D594393DAA2272D /* Pods-LeeMC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
